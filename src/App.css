@@ -1,0 +1,38 @@
+form{
+  width: 60%;
+  margin:auto;
+}
+
+.contact-info{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.email, .message,.name{
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+.email-input,.name-input{
+  outline: none;
+  padding: auto;
+  margin: 5px;
+}
+.message-input{
+  padding:2px;
+  margin:5px;
+  background-color: #ccc;
+  outline: none;
+  box-sizing: border-box;
+  width: 12rem;
+  height: 6rem;
+}
+
+.submit-btn{
+  padding:2px;
+  outline: none;
+  margin:2px;
+  background-color:#f119f2;
+}
+.submit-btn:hover{
+  background-color: #b303f8
+}
